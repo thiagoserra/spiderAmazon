@@ -1,0 +1,6 @@
+endereco ; precoAlvo
+https://www.amazon.com.br/gp/product/B00R0Z7TFM/ ; 290
+https://www.amazon.com.br/gp/product/B06XR5MWGM/ ; 370
+https://www.amazon.com.br/gp/product/B075XP6PX9/ ; 400
+https://www.amazon.com.br/gp/product/B07Q3X3WJM/ ; 500
+https://www.amazon.com.br/gp/product/B07GPRXZQF/ ; 600
