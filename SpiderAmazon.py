@@ -1,3 +1,13 @@
+'''
+----------------------------------------------------
+SpiderAmazon v.1 (2020)
+@author Thiago Serra <thiagoserra at protonmail.com>
+Licence: GNU GENERAL PUBLIC LICENSE v.3
+
+Artigo:
+    https://medium.com/@thiagonce/raspando-a-amazon-python-webscraping-ec1a44c35a1c
+
+'''
 import csv
 import smtplib
 import pyodbc
@@ -22,6 +32,11 @@ class SipderAmazon:
 
 
     def capturar(self):
+        print('-' * 80)
+        print('-' * 40 + ' SpiderAmazon v.1.0 ' + '-' *20)        
+        print('-' * 80)
+        print('-' * 26 + ' @author: Thiago Serra <thiagoserra at protonmail.com>')
+        print('-' * 80)
         # decidi guardar na base o descricao do item, a url pesquisada, a data e hora da consulta e
         # o preco do site no momento da consulta
         sqlInsert = "INSERT INTO tb_produtos (descricao, url, data, hora, preco) VALUES " \
